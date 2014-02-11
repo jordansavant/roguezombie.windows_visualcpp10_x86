@@ -21,6 +21,9 @@
     <ClCompile Include="roguezombie\bitengine\Foo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="roguezombie\bitengine\Bar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="roguezombie\content\Zombie.png">
@@ -29,6 +32,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="roguezombie\bitengine\Foo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Bar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

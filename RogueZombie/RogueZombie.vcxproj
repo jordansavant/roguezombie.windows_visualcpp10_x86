@@ -80,6 +80,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="roguezombie\bitengine\Bar.cpp" />
     <ClCompile Include="roguezombie\bitengine\Foo.cpp" />
     <ClCompile Include="roguezombie\main.cpp" />
   </ItemGroup>
@@ -87,6 +88,7 @@
     <None Include="roguezombie\content\Zombie.png" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="roguezombie\bitengine\Bar.h" />
     <ClInclude Include="roguezombie\bitengine\Foo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
