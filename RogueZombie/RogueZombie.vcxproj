@@ -58,6 +58,9 @@
       <AdditionalLibraryDirectories>..\SFML-2.1\lib;</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics-s-d.lib;sfml-main-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;sfml-audio-s-d.lib;sfml-network-s-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy /E /Y "$(ProjectDir)\roguezombie\content" "$(OutDir)content\"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -80,16 +83,46 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="roguezombie\bitengine\Bar.cpp" />
-    <ClCompile Include="roguezombie\bitengine\Foo.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Audio\MusicManager.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Audio\SoundManager.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Game\GameComponent.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Game\GameTimer.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Graphics\Vertex3.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Graphics\Vertex3Array.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Graphics\VertexHelper.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Graphics\VertexMap.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Input\InputBinding.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Input\InputBindingVector.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Input\InputManager.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Input\XinputGamepad.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Math.cpp" />
+    <ClCompile Include="roguezombie\bitengine\VectorMath.cpp" />
+    <ClCompile Include="roguezombie\cpd.cpp" />
     <ClCompile Include="roguezombie\main.cpp" />
+    <ClCompile Include="roguezombie\ResourcePath.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="roguezombie\content\Zombie.png" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="roguezombie\bitengine\Bar.h" />
-    <ClInclude Include="roguezombie\bitengine\Foo.h" />
+    <ClInclude Include="roguezombie\bitengine\Audio\MusicManager.h" />
+    <ClInclude Include="roguezombie\bitengine\Audio\SoundManager.h" />
+    <ClInclude Include="roguezombie\bitengine\Game\GameComponent.h" />
+    <ClInclude Include="roguezombie\bitengine\Game\GameTimer.h" />
+    <ClInclude Include="roguezombie\bitengine\Graphics\Vertex3.h" />
+    <ClInclude Include="roguezombie\bitengine\Graphics\Vertex3Array.h" />
+    <ClInclude Include="roguezombie\bitengine\Graphics\VertexHelper.h" />
+    <ClInclude Include="roguezombie\bitengine\Graphics\VertexMap.h" />
+    <ClInclude Include="roguezombie\bitengine\Input\InputBinding.h" />
+    <ClInclude Include="roguezombie\bitengine\Input\InputBindingVector.h" />
+    <ClInclude Include="roguezombie\bitengine\Input\InputManager.h" />
+    <ClInclude Include="roguezombie\bitengine\Input\XinputGamepad.h" />
+    <ClInclude Include="roguezombie\bitengine\Math.h" />
+    <ClInclude Include="roguezombie\bitengine\Structures\Pool.h" />
+    <ClInclude Include="roguezombie\bitengine\Structures\Quadtree.h" />
+    <ClInclude Include="roguezombie\bitengine\VectorMath.h" />
+    <ClInclude Include="roguezombie\cpd.h" />
+    <ClInclude Include="roguezombie\ResourcePath.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
