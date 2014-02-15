@@ -116,8 +116,11 @@
     <ClCompile Include="roguezombie\bitengine\Intelligence\Astar.cpp" />
     <ClCompile Include="roguezombie\bitengine\Intelligence\Node.cpp" />
     <ClCompile Include="roguezombie\bitengine\Math\Math.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Math\mtrand.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Math\Random.cpp" />
     <ClCompile Include="roguezombie\bitengine\Math\VectorMath.cpp" />
-    <ClCompile Include="roguezombie\cpd.cpp" />
+    <ClCompile Include="roguezombie\bitengine\System\FileSystem.cpp" />
+    <ClCompile Include="roguezombie\bitengine\System\Output.cpp" />
     <ClCompile Include="roguezombie\main.cpp" />
     <ClCompile Include="roguezombie\ResourcePath.cpp" />
   </ItemGroup>
@@ -160,9 +163,15 @@
     <ClInclude Include="roguezombie\bitengine\Intelligence\NodeContainer.hpp" />
     <ClInclude Include="roguezombie\bitengine\Math.h" />
     <ClInclude Include="roguezombie\bitengine\Math\Math.hpp" />
+    <ClInclude Include="roguezombie\bitengine\Math\mtrand.hpp" />
+    <ClInclude Include="roguezombie\bitengine\math\Random.hpp" />
+    <ClInclude Include="roguezombie\bitengine\structures\exception.hpp" />
     <ClInclude Include="roguezombie\bitengine\Structures\Pool.hpp" />
     <ClInclude Include="roguezombie\bitengine\Structures\Quadtree.hpp" />
     <ClInclude Include="roguezombie\bitengine\Math\VectorMath.hpp" />
+    <ClInclude Include="roguezombie\bitengine\system\Filesystem.hpp" />
+    <ClInclude Include="roguezombie\bitengine\System\Output.hpp" />
+    <ClInclude Include="roguezombie\bitengine\System\PlatformDefinitions.hpp" />
     <ClInclude Include="roguezombie\cpd.h" />
     <ClInclude Include="roguezombie\ResourcePath.h" />
   </ItemGroup>
