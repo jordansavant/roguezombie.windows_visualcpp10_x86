@@ -81,6 +81,9 @@
       <AdditionalLibraryDirectories>..\SFML-2.1\lib;</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics-s.lib;sfml-main.lib;sfml-window-s.lib;sfml-system-s.lib;sfml-audio-s.lib;sfml-network-s.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>xcopy /E /Y "$(ProjectDir)\roguezombie\content" "$(OutDir)content\"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="roguezombie\bitengine\Audio\MusicManager.cpp" />
