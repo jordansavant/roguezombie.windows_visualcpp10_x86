@@ -85,12 +85,14 @@
   <ItemGroup>
     <ClCompile Include="roguezombie\bitengine\Audio\MusicManager.cpp" />
     <ClCompile Include="roguezombie\bitengine\Audio\SoundManager.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Game\ClientServerState.cpp" />
     <ClCompile Include="roguezombie\bitengine\Game\Game.cpp" />
     <ClCompile Include="roguezombie\bitengine\Game\GameComponent.cpp" />
     <ClCompile Include="roguezombie\bitengine\Game\GameTimer.cpp" />
-    <ClCompile Include="roguezombie\bitengine\Game\Level.cpp" />
-    <ClCompile Include="roguezombie\bitengine\Game\LevelComponent.cpp" />
-    <ClCompile Include="roguezombie\bitengine\Game\LevelManager.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Game\RemoteClient.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Game\Server.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Game\State.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Game\StateStack.cpp" />
     <ClCompile Include="roguezombie\bitengine\Graphics\Animation.cpp" />
     <ClCompile Include="roguezombie\bitengine\Graphics\Camera.cpp" />
     <ClCompile Include="roguezombie\bitengine\Graphics\Sprite.cpp" />
@@ -122,7 +124,13 @@
     <ClCompile Include="roguezombie\bitengine\System\FileSystem.cpp" />
     <ClCompile Include="roguezombie\bitengine\System\Output.cpp" />
     <ClCompile Include="roguezombie\main.cpp" />
+    <ClCompile Include="roguezombie\superpants\MultiplayerState.cpp" />
     <ClCompile Include="roguezombie\ResourcePath.cpp" />
+    <ClCompile Include="roguezombie\superpants\TestGame.cpp" />
+    <ClCompile Include="roguezombie\superpants\TestServer.cpp" />
+    <ClCompile Include="roguezombie\superpants\TitleState.cpp" />
+    <ClCompile Include="roguezombie\superpants\World.cpp" />
+    <ClCompile Include="roguezombie\superpants\Zombie.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="roguezombie\content\Zombie.png" />
@@ -130,12 +138,14 @@
   <ItemGroup>
     <ClInclude Include="roguezombie\bitengine\Audio\MusicManager.hpp" />
     <ClInclude Include="roguezombie\bitengine\Audio\SoundManager.hpp" />
+    <ClInclude Include="roguezombie\bitengine\Game\ClientServerState.hpp" />
     <ClInclude Include="roguezombie\bitengine\Game\Game.hpp" />
     <ClInclude Include="roguezombie\bitengine\Game\GameComponent.hpp" />
     <ClInclude Include="roguezombie\bitengine\Game\GameTimer.hpp" />
-    <ClInclude Include="roguezombie\bitengine\Game\Level.hpp" />
-    <ClInclude Include="roguezombie\bitengine\Game\LevelComponent.hpp" />
-    <ClInclude Include="roguezombie\bitengine\Game\LevelManager.hpp" />
+    <ClInclude Include="roguezombie\bitengine\Game\RemoteClient.hpp" />
+    <ClInclude Include="roguezombie\bitengine\Game\Server.hpp" />
+    <ClInclude Include="roguezombie\bitengine\Game\State.hpp" />
+    <ClInclude Include="roguezombie\bitengine\Game\StateStack.hpp" />
     <ClInclude Include="roguezombie\bitengine\Graphics\Animation.hpp" />
     <ClInclude Include="roguezombie\bitengine\Graphics\Camera.hpp" />
     <ClInclude Include="roguezombie\bitengine\Graphics\Sprite.hpp" />
@@ -165,7 +175,7 @@
     <ClInclude Include="roguezombie\bitengine\Math\Math.hpp" />
     <ClInclude Include="roguezombie\bitengine\Math\mtrand.hpp" />
     <ClInclude Include="roguezombie\bitengine\math\Random.hpp" />
-    <ClInclude Include="roguezombie\bitengine\structures\exception.hpp" />
+    <ClInclude Include="roguezombie\bitengine\structures\Exception.hpp" />
     <ClInclude Include="roguezombie\bitengine\Structures\Pool.hpp" />
     <ClInclude Include="roguezombie\bitengine\Structures\Quadtree.hpp" />
     <ClInclude Include="roguezombie\bitengine\Math\VectorMath.hpp" />
@@ -173,7 +183,13 @@
     <ClInclude Include="roguezombie\bitengine\System\Output.hpp" />
     <ClInclude Include="roguezombie\bitengine\System\PlatformDefinitions.hpp" />
     <ClInclude Include="roguezombie\cpd.h" />
+    <ClInclude Include="roguezombie\superpants\MultiplayerState.hpp" />
     <ClInclude Include="roguezombie\ResourcePath.h" />
+    <ClInclude Include="roguezombie\superpants\TestGame.hpp" />
+    <ClInclude Include="roguezombie\superpants\TestServer.hpp" />
+    <ClInclude Include="roguezombie\superpants\TitleState.hpp" />
+    <ClInclude Include="roguezombie\superpants\World.hpp" />
+    <ClInclude Include="roguezombie\superpants\Zombie.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
