@@ -129,6 +129,8 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\bitengine\System\FileSystem.cpp" />
     <ClCompile Include="roguezombie\bitengine\System\Output.cpp" />
     <ClCompile Include="roguezombie\main.cpp" />
+    <ClCompile Include="roguezombie\superpants\ClientWorld.cpp" />
+    <ClCompile Include="roguezombie\superpants\ClientZombie.cpp" />
     <ClCompile Include="roguezombie\superpants\MultiplayerState.cpp" />
     <ClCompile Include="roguezombie\ResourcePath.cpp" />
     <ClCompile Include="roguezombie\superpants\TestGame.cpp" />
@@ -188,6 +190,8 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClInclude Include="roguezombie\bitengine\System\Output.hpp" />
     <ClInclude Include="roguezombie\bitengine\System\PlatformDefinitions.hpp" />
     <ClInclude Include="roguezombie\cpd.h" />
+    <ClInclude Include="roguezombie\superpants\ClientWorld.hpp" />
+    <ClInclude Include="roguezombie\superpants\ClientZombie.hpp" />
     <ClInclude Include="roguezombie\superpants\MultiplayerState.hpp" />
     <ClInclude Include="roguezombie\ResourcePath.h" />
     <ClInclude Include="roguezombie\superpants\TestGame.hpp" />
