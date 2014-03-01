@@ -132,15 +132,6 @@
     <ClCompile Include="roguezombie\bitengine\Game\StateStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="roguezombie\bitengine\Game\ClientServerState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="roguezombie\bitengine\Game\Server.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="roguezombie\bitengine\Game\RemoteClient.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="roguezombie\superpants\MultiplayerState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -166,6 +157,21 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="roguezombie\superpants\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\bitengine\Network\ClientPacket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\bitengine\Network\ClientServerState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\bitengine\Network\RemoteClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\bitengine\Network\Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\bitengine\Network\ServerPacket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -307,16 +313,7 @@
     <ClInclude Include="roguezombie\bitengine\Game\StateStack.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="roguezombie\bitengine\Game\ClientServerState.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="roguezombie\bitengine\Game\Server.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="roguezombie\bitengine\structures\Exception.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="roguezombie\bitengine\Game\RemoteClient.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="roguezombie\superpants\MultiplayerState.hpp">
@@ -347,6 +344,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="roguezombie\superpants\Player.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Network\ClientServerState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Network\ClientPacket.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Network\ServerPacket.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Network\RemoteClient.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Network\Server.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
