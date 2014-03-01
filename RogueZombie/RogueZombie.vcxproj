@@ -133,6 +133,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\superpants\ClientZombie.cpp" />
     <ClCompile Include="roguezombie\superpants\MultiplayerState.cpp" />
     <ClCompile Include="roguezombie\ResourcePath.cpp" />
+    <ClCompile Include="roguezombie\superpants\Player.cpp" />
     <ClCompile Include="roguezombie\superpants\TestGame.cpp" />
     <ClCompile Include="roguezombie\superpants\TestServer.cpp" />
     <ClCompile Include="roguezombie\superpants\TitleState.cpp" />
@@ -192,8 +193,10 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClInclude Include="roguezombie\cpd.h" />
     <ClInclude Include="roguezombie\superpants\ClientWorld.hpp" />
     <ClInclude Include="roguezombie\superpants\ClientZombie.hpp" />
+    <ClInclude Include="roguezombie\superpants\Command.hpp" />
     <ClInclude Include="roguezombie\superpants\MultiplayerState.hpp" />
     <ClInclude Include="roguezombie\ResourcePath.h" />
+    <ClInclude Include="roguezombie\superpants\Player.hpp" />
     <ClInclude Include="roguezombie\superpants\TestGame.hpp" />
     <ClInclude Include="roguezombie\superpants\TestServer.hpp" />
     <ClInclude Include="roguezombie\superpants\TitleState.hpp" />
