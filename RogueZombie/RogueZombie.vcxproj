@@ -133,6 +133,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\main.cpp" />
     <ClCompile Include="roguezombie\superpants\ClientWorld.cpp" />
     <ClCompile Include="roguezombie\superpants\ClientZombie.cpp" />
+    <ClCompile Include="roguezombie\superpants\Command.cpp" />
     <ClCompile Include="roguezombie\superpants\MultiplayerState.cpp" />
     <ClCompile Include="roguezombie\ResourcePath.cpp" />
     <ClCompile Include="roguezombie\superpants\Player.cpp" />
