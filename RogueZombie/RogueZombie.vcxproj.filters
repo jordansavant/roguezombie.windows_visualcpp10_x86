@@ -132,33 +132,6 @@
     <ClCompile Include="roguezombie\bitengine\Game\StateStack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="roguezombie\superpants\MultiplayerState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="roguezombie\superpants\TestGame.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="roguezombie\superpants\TestServer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="roguezombie\superpants\TitleState.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="roguezombie\superpants\Zombie.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="roguezombie\superpants\World.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="roguezombie\superpants\ClientWorld.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="roguezombie\superpants\ClientZombie.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="roguezombie\superpants\Player.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="roguezombie\bitengine\Network\ClientPacket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -174,7 +147,43 @@
     <ClCompile Include="roguezombie\bitengine\Network\ServerPacket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="roguezombie\superpants\Command.cpp">
+    <ClCompile Include="roguezombie\game\Command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\GameplayServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\GameplayState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\RogueZombieGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\StartMenuState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\Tile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\characters\Zombie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\characters\ZombieClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\TileClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\WorldClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -182,6 +191,13 @@
     <None Include="roguezombie\content\Zombie.png">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="..\..\..\Monstergeddon\Assets\Graphics\tiles\water.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="roguezombie\content\Water.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="roguezombie\content\Agency.ttf" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="roguezombie\cpd.h">
@@ -319,36 +335,6 @@
     <ClInclude Include="roguezombie\bitengine\structures\Exception.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="roguezombie\superpants\MultiplayerState.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="roguezombie\superpants\TestServer.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="roguezombie\superpants\TestGame.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="roguezombie\superpants\TitleState.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="roguezombie\superpants\Zombie.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="roguezombie\superpants\World.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="roguezombie\superpants\ClientWorld.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="roguezombie\superpants\ClientZombie.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="roguezombie\superpants\Command.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="roguezombie\superpants\Player.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="roguezombie\bitengine\Network\ClientServerState.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -362,6 +348,75 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="roguezombie\bitengine\Network\Server.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Audio.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Graphics.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Gui.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Input.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Intelligence.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Math.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Network.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Structures.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\System.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\Command.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\GameplayServer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\GameplayState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\Player.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\RogueZombieGame.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\StartMenuState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\Tile.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\World.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\Character.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\characters\Zombie.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\characters\ZombieClient.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\TileClient.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\WorldClient.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
