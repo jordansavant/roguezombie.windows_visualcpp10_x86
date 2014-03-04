@@ -130,7 +130,11 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\bitengine\Math\VectorMath.cpp" />
     <ClCompile Include="roguezombie\bitengine\System\FileSystem.cpp" />
     <ClCompile Include="roguezombie\bitengine\System\Output.cpp" />
+    <ClCompile Include="roguezombie\game\Body.cpp" />
     <ClCompile Include="roguezombie\game\Character.cpp" />
+    <ClCompile Include="roguezombie\game\Structure.cpp" />
+    <ClCompile Include="roguezombie\game\structures\Wall.cpp" />
+    <ClCompile Include="roguezombie\game\structures\WallClient.cpp" />
     <ClCompile Include="roguezombie\main.cpp" />
     <ClCompile Include="roguezombie\game\TileClient.cpp" />
     <ClCompile Include="roguezombie\game\WorldClient.cpp" />
@@ -149,6 +153,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
   <ItemGroup>
     <None Include="..\..\..\Monstergeddon\Assets\Graphics\tiles\water.png" />
     <None Include="roguezombie\content\Agency.ttf" />
+    <None Include="roguezombie\content\Wall.png" />
     <None Include="roguezombie\content\Water.png" />
     <None Include="roguezombie\content\Zombie.png" />
   </ItemGroup>
@@ -212,7 +217,11 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClInclude Include="roguezombie\bitengine\System\Output.hpp" />
     <ClInclude Include="roguezombie\bitengine\System\PlatformDefinitions.hpp" />
     <ClInclude Include="roguezombie\cpd.h" />
+    <ClInclude Include="roguezombie\game\Body.hpp" />
     <ClInclude Include="roguezombie\game\Character.hpp" />
+    <ClInclude Include="roguezombie\game\Structure.hpp" />
+    <ClInclude Include="roguezombie\game\structures\Wall.hpp" />
+    <ClInclude Include="roguezombie\game\structures\WallClient.hpp" />
     <ClInclude Include="roguezombie\game\TileClient.hpp" />
     <ClInclude Include="roguezombie\game\WorldClient.hpp" />
     <ClInclude Include="roguezombie\game\characters\ZombieClient.hpp" />
