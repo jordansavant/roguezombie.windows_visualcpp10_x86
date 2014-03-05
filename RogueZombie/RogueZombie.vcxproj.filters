@@ -198,12 +198,15 @@
     <ClCompile Include="roguezombie\game\structures\WallClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="roguezombie\game\characters\Ogre.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\characters\OgreClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="roguezombie\content\Zombie.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\..\..\Monstergeddon\Assets\Graphics\tiles\water.png">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="roguezombie\content\Water.png">
@@ -211,6 +214,9 @@
     </None>
     <None Include="roguezombie\content\Agency.ttf" />
     <None Include="roguezombie\content\Wall.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="roguezombie\content\Ogre.png">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
@@ -444,6 +450,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="roguezombie\game\structures\WallClient.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\characters\Ogre.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\characters\OgreClient.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
