@@ -204,21 +204,15 @@
     <ClCompile Include="roguezombie\game\characters\OgreClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="roguezombie\bitengine\Intelligence\Shadowcaster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="roguezombie\content\Zombie.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="roguezombie\content\Water.png">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="roguezombie\content\Agency.ttf" />
-    <None Include="roguezombie\content\Wall.png">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="roguezombie\content\Ogre.png">
-      <Filter>Resource Files</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="roguezombie\cpd.h">
@@ -456,6 +450,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="roguezombie\game\characters\OgreClient.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Intelligence\Shadowcaster.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\Light.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -90,6 +90,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
   <ItemGroup>
     <ClCompile Include="roguezombie\bitengine\Audio\MusicManager.cpp" />
     <ClCompile Include="roguezombie\bitengine\Audio\SoundManager.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Intelligence\Shadowcaster.cpp" />
     <ClCompile Include="roguezombie\bitengine\Network\ClientPacket.cpp" />
     <ClCompile Include="roguezombie\bitengine\Network\ClientServerState.cpp" />
     <ClCompile Include="roguezombie\bitengine\Game\Game.cpp" />
@@ -134,6 +135,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\game\Character.cpp" />
     <ClCompile Include="roguezombie\game\characters\Ogre.cpp" />
     <ClCompile Include="roguezombie\game\characters\OgreClient.cpp" />
+    <ClCompile Include="roguezombie\game\Light.cpp" />
     <ClCompile Include="roguezombie\game\Structure.cpp" />
     <ClCompile Include="roguezombie\game\structures\Wall.cpp" />
     <ClCompile Include="roguezombie\game\structures\WallClient.cpp" />
@@ -154,10 +156,6 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
   </ItemGroup>
   <ItemGroup>
     <None Include="roguezombie\content\Agency.ttf" />
-    <None Include="roguezombie\content\Ogre.png" />
-    <None Include="roguezombie\content\Wall.png" />
-    <None Include="roguezombie\content\Water.png" />
-    <None Include="roguezombie\content\Zombie.png" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="roguezombie\bitengine\Audio.hpp" />
@@ -168,6 +166,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClInclude Include="roguezombie\bitengine\Gui.hpp" />
     <ClInclude Include="roguezombie\bitengine\Input.hpp" />
     <ClInclude Include="roguezombie\bitengine\Intelligence.hpp" />
+    <ClInclude Include="roguezombie\bitengine\Intelligence\Shadowcaster.hpp" />
     <ClInclude Include="roguezombie\bitengine\Math.hpp" />
     <ClInclude Include="roguezombie\bitengine\Network.hpp" />
     <ClInclude Include="roguezombie\bitengine\Network\ClientPacket.hpp" />
@@ -223,6 +222,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClInclude Include="roguezombie\game\Character.hpp" />
     <ClInclude Include="roguezombie\game\characters\Ogre.hpp" />
     <ClInclude Include="roguezombie\game\characters\OgreClient.hpp" />
+    <ClInclude Include="roguezombie\game\Light.hpp" />
     <ClInclude Include="roguezombie\game\Structure.hpp" />
     <ClInclude Include="roguezombie\game\structures\Wall.hpp" />
     <ClInclude Include="roguezombie\game\structures\WallClient.hpp" />
