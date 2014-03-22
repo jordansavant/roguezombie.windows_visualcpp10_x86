@@ -168,6 +168,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClInclude Include="roguezombie\bitengine\Game.hpp" />
     <ClInclude Include="roguezombie\bitengine\Game\FrameTimer.hpp" />
     <ClInclude Include="roguezombie\bitengine\Graphics.hpp" />
+    <ClInclude Include="roguezombie\bitengine\Graphics\VertexFontMap.hpp" />
     <ClInclude Include="roguezombie\bitengine\Gui.hpp" />
     <ClInclude Include="roguezombie\bitengine\Input.hpp" />
     <ClInclude Include="roguezombie\bitengine\Intelligence.hpp" />
@@ -215,6 +216,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClInclude Include="roguezombie\bitengine\math\Random.hpp" />
     <ClInclude Include="roguezombie\bitengine\Structures.hpp" />
     <ClInclude Include="roguezombie\bitengine\structures\Exception.hpp" />
+    <ClInclude Include="roguezombie\bitengine\Structures\HashPair.hpp" />
     <ClInclude Include="roguezombie\bitengine\Structures\Pool.hpp" />
     <ClInclude Include="roguezombie\bitengine\Structures\Quadtree.hpp" />
     <ClInclude Include="roguezombie\bitengine\Math\VectorMath.hpp" />
@@ -239,6 +241,8 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClInclude Include="roguezombie\game\characters\ZombieClient.hpp" />
     <ClInclude Include="roguezombie\game\Command.hpp" />
     <ClInclude Include="roguezombie\game\GameplayState.hpp" />
+    <ClInclude Include="roguezombie\game\WorldClientRunner.hpp" />
+    <ClInclude Include="roguezombie\game\WorldRunner.hpp" />
     <ClInclude Include="roguezombie\ResourcePath.h" />
     <ClInclude Include="roguezombie\game\Player.hpp" />
     <ClInclude Include="roguezombie\game\RogueZombieGame.hpp" />

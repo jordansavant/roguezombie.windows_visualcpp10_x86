@@ -482,5 +482,17 @@
     <ClInclude Include="roguezombie\game\structures\DoorClient.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="roguezombie\game\WorldClientRunner.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\WorldRunner.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Graphics\VertexFontMap.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Structures\HashPair.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
