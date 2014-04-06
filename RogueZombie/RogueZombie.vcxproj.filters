@@ -168,9 +168,6 @@
     <ClCompile Include="roguezombie\game\Tile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="roguezombie\game\World.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="roguezombie\game\Character.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -181,9 +178,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="roguezombie\game\TileClient.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="roguezombie\game\WorldClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="roguezombie\game\Body.cpp">
@@ -220,6 +214,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="roguezombie\game\structures\DoorClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\LevelClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -428,9 +428,6 @@
     <ClInclude Include="roguezombie\game\Tile.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="roguezombie\game\World.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="roguezombie\game\Character.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -441,9 +438,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="roguezombie\game\TileClient.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="roguezombie\game\WorldClient.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="roguezombie\game\Body.hpp">
@@ -482,16 +476,22 @@
     <ClInclude Include="roguezombie\game\structures\DoorClient.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="roguezombie\game\WorldClientRunner.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="roguezombie\game\WorldRunner.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="roguezombie\bitengine\Graphics\VertexFontMap.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="roguezombie\bitengine\Structures\HashPair.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\Level.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\LevelClient.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\LevelClientRunner.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\LevelRunner.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

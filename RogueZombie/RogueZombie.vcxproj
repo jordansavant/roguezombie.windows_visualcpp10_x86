@@ -145,7 +145,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\game\structures\WallClient.cpp" />
     <ClCompile Include="roguezombie\main.cpp" />
     <ClCompile Include="roguezombie\game\TileClient.cpp" />
-    <ClCompile Include="roguezombie\game\WorldClient.cpp" />
+    <ClCompile Include="roguezombie\game\LevelClient.cpp" />
     <ClCompile Include="roguezombie\game\characters\ZombieClient.cpp" />
     <ClCompile Include="roguezombie\game\Command.cpp" />
     <ClCompile Include="roguezombie\game\GameplayState.cpp" />
@@ -155,7 +155,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\game\GameplayServer.cpp" />
     <ClCompile Include="roguezombie\game\Tile.cpp" />
     <ClCompile Include="roguezombie\game\StartMenuState.cpp" />
-    <ClCompile Include="roguezombie\game\World.cpp" />
+    <ClCompile Include="roguezombie\game\Level.cpp" />
     <ClCompile Include="roguezombie\game\characters\Zombie.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -237,19 +237,19 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClInclude Include="roguezombie\game\structures\Wall.hpp" />
     <ClInclude Include="roguezombie\game\structures\WallClient.hpp" />
     <ClInclude Include="roguezombie\game\TileClient.hpp" />
-    <ClInclude Include="roguezombie\game\WorldClient.hpp" />
+    <ClInclude Include="roguezombie\game\LevelClient.hpp" />
     <ClInclude Include="roguezombie\game\characters\ZombieClient.hpp" />
     <ClInclude Include="roguezombie\game\Command.hpp" />
     <ClInclude Include="roguezombie\game\GameplayState.hpp" />
-    <ClInclude Include="roguezombie\game\WorldClientRunner.hpp" />
-    <ClInclude Include="roguezombie\game\WorldRunner.hpp" />
+    <ClInclude Include="roguezombie\game\LevelClientRunner.hpp" />
+    <ClInclude Include="roguezombie\game\LevelRunner.hpp" />
     <ClInclude Include="roguezombie\ResourcePath.h" />
     <ClInclude Include="roguezombie\game\Player.hpp" />
     <ClInclude Include="roguezombie\game\RogueZombieGame.hpp" />
     <ClInclude Include="roguezombie\game\GameplayServer.hpp" />
     <ClInclude Include="roguezombie\game\Tile.hpp" />
     <ClInclude Include="roguezombie\game\StartMenuState.hpp" />
-    <ClInclude Include="roguezombie\game\World.hpp" />
+    <ClInclude Include="roguezombie\game\Level.hpp" />
     <ClInclude Include="roguezombie\game\characters\Zombie.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
