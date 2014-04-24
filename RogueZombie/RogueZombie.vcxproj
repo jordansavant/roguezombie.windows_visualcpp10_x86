@@ -91,6 +91,8 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\bitengine\Audio\MusicManager.cpp" />
     <ClCompile Include="roguezombie\bitengine\Audio\SoundManager.cpp" />
     <ClCompile Include="roguezombie\bitengine\Game\FrameTimer.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Game\VideoGame.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Gui\FadeEffect.cpp" />
     <ClCompile Include="roguezombie\bitengine\Intelligence\Shadowcaster.cpp" />
     <ClCompile Include="roguezombie\bitengine\Network\ClientPacket.cpp" />
     <ClCompile Include="roguezombie\bitengine\Network\ClientServerState.cpp" />
@@ -133,12 +135,30 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\bitengine\System\FileSystem.cpp" />
     <ClCompile Include="roguezombie\bitengine\System\Output.cpp" />
     <ClCompile Include="roguezombie\game\Body.cpp" />
+    <ClCompile Include="roguezombie\game\BodyClient.cpp" />
     <ClCompile Include="roguezombie\game\Character.cpp" />
+    <ClCompile Include="roguezombie\game\CharacterClient.cpp" />
     <ClCompile Include="roguezombie\game\characters\Ogre.cpp" />
     <ClCompile Include="roguezombie\game\characters\OgreClient.cpp" />
+    <ClCompile Include="roguezombie\game\hud\Hud.cpp" />
+    <ClCompile Include="roguezombie\game\hud\HudElement.cpp" />
+    <ClCompile Include="roguezombie\game\hud\OptionsBar.cpp" />
+    <ClCompile Include="roguezombie\game\items\Item.cpp" />
+    <ClCompile Include="roguezombie\game\items\ItemClient.cpp" />
+    <ClCompile Include="roguezombie\game\levels\Interior.cpp" />
     <ClCompile Include="roguezombie\game\Light.cpp" />
-    <ClCompile Include="roguezombie\game\Minimap.cpp" />
+    <ClCompile Include="roguezombie\game\menus\ErrorMenu.cpp" />
+    <ClCompile Include="roguezombie\game\menus\StartMainMenu.cpp" />
+    <ClCompile Include="roguezombie\game\menus\StateMenu.cpp" />
+    <ClCompile Include="roguezombie\game\hud\Minimap.cpp" />
+    <ClCompile Include="roguezombie\game\mission\JournalEntry.cpp" />
+    <ClCompile Include="roguezombie\game\mission\Mission.cpp" />
+    <ClCompile Include="roguezombie\game\mission\MissionClient.cpp" />
+    <ClCompile Include="roguezombie\game\RogueZombieServer.cpp" />
+    <ClCompile Include="roguezombie\game\StateGameError.cpp" />
+    <ClCompile Include="roguezombie\game\StateServerPlay.cpp" />
     <ClCompile Include="roguezombie\game\Structure.cpp" />
+    <ClCompile Include="roguezombie\game\StructureClient.cpp" />
     <ClCompile Include="roguezombie\game\structures\Door.cpp" />
     <ClCompile Include="roguezombie\game\structures\DoorClient.cpp" />
     <ClCompile Include="roguezombie\game\structures\Wall.cpp" />
@@ -148,18 +168,24 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\game\LevelClient.cpp" />
     <ClCompile Include="roguezombie\game\characters\ZombieClient.cpp" />
     <ClCompile Include="roguezombie\game\Command.cpp" />
-    <ClCompile Include="roguezombie\game\GameplayState.cpp" />
+    <ClCompile Include="roguezombie\game\StateGamePlay.cpp" />
     <ClCompile Include="roguezombie\ResourcePath.cpp" />
     <ClCompile Include="roguezombie\game\Player.cpp" />
     <ClCompile Include="roguezombie\game\RogueZombieGame.cpp" />
     <ClCompile Include="roguezombie\game\GameplayServer.cpp" />
     <ClCompile Include="roguezombie\game\Tile.cpp" />
-    <ClCompile Include="roguezombie\game\StartMenuState.cpp" />
+    <ClCompile Include="roguezombie\game\StateGameStart.cpp" />
     <ClCompile Include="roguezombie\game\Level.cpp" />
     <ClCompile Include="roguezombie\game\characters\Zombie.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="roguezombie\content\Agency.ttf" />
+    <ClInclude Include="roguezombie\bitengine\Network\NetworkHelper.hpp" />
+    <ClInclude Include="roguezombie\game\BodyClient.hpp" />
+    <ClInclude Include="roguezombie\game\CharacterClient.hpp" />
+    <ClInclude Include="roguezombie\game\items\ItemClient.hpp">
+      <FileType>Document</FileType>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="roguezombie\bitengine\Audio.hpp" />
@@ -167,9 +193,11 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClInclude Include="roguezombie\bitengine\Audio\SoundManager.hpp" />
     <ClInclude Include="roguezombie\bitengine\Game.hpp" />
     <ClInclude Include="roguezombie\bitengine\Game\FrameTimer.hpp" />
+    <ClInclude Include="roguezombie\bitengine\Game\VideoGame.hpp" />
     <ClInclude Include="roguezombie\bitengine\Graphics.hpp" />
     <ClInclude Include="roguezombie\bitengine\Graphics\VertexFontMap.hpp" />
     <ClInclude Include="roguezombie\bitengine\Gui.hpp" />
+    <ClInclude Include="roguezombie\bitengine\Gui\FadeEffect.hpp" />
     <ClInclude Include="roguezombie\bitengine\Input.hpp" />
     <ClInclude Include="roguezombie\bitengine\Intelligence.hpp" />
     <ClInclude Include="roguezombie\bitengine\Intelligence\Shadowcaster.hpp" />
@@ -229,9 +257,27 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClInclude Include="roguezombie\game\Character.hpp" />
     <ClInclude Include="roguezombie\game\characters\Ogre.hpp" />
     <ClInclude Include="roguezombie\game\characters\OgreClient.hpp" />
+    <ClInclude Include="roguezombie\game\GameEvent.hpp" />
+    <ClInclude Include="roguezombie\game\hud\Hud.hpp" />
+    <ClInclude Include="roguezombie\game\hud\HudElement.hpp" />
+    <ClInclude Include="roguezombie\game\hud\OptionsBar.hpp" />
+    <ClInclude Include="roguezombie\game\items\Item.hpp" />
+    <ClInclude Include="roguezombie\game\items\ItemCategory.hpp" />
+    <ClInclude Include="roguezombie\game\levels\Interior.hpp" />
     <ClInclude Include="roguezombie\game\Light.hpp" />
-    <ClInclude Include="roguezombie\game\Minimap.hpp" />
+    <ClInclude Include="roguezombie\game\menus\ErrorMenu.hpp" />
+    <ClInclude Include="roguezombie\game\menus\StartMainMenu.hpp" />
+    <ClInclude Include="roguezombie\game\menus\StateMenu.hpp" />
+    <ClInclude Include="roguezombie\game\hud\Minimap.hpp" />
+    <ClInclude Include="roguezombie\game\mission\JournalEntry.hpp" />
+    <ClInclude Include="roguezombie\game\mission\LogicalType.hpp" />
+    <ClInclude Include="roguezombie\game\mission\Mission.hpp" />
+    <ClInclude Include="roguezombie\game\mission\MissionClient.hpp" />
+    <ClInclude Include="roguezombie\game\RogueZombieServer.hpp" />
+    <ClInclude Include="roguezombie\game\StateGameError.hpp" />
+    <ClInclude Include="roguezombie\game\StateServerPlay.hpp" />
     <ClInclude Include="roguezombie\game\Structure.hpp" />
+    <ClInclude Include="roguezombie\game\StructureClient.hpp" />
     <ClInclude Include="roguezombie\game\structures\Door.hpp" />
     <ClInclude Include="roguezombie\game\structures\DoorClient.hpp" />
     <ClInclude Include="roguezombie\game\structures\Wall.hpp" />
@@ -240,7 +286,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClInclude Include="roguezombie\game\LevelClient.hpp" />
     <ClInclude Include="roguezombie\game\characters\ZombieClient.hpp" />
     <ClInclude Include="roguezombie\game\Command.hpp" />
-    <ClInclude Include="roguezombie\game\GameplayState.hpp" />
+    <ClInclude Include="roguezombie\game\StateGamePlay.hpp" />
     <ClInclude Include="roguezombie\game\LevelClientRunner.hpp" />
     <ClInclude Include="roguezombie\game\LevelRunner.hpp" />
     <ClInclude Include="roguezombie\ResourcePath.h" />
@@ -248,7 +294,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClInclude Include="roguezombie\game\RogueZombieGame.hpp" />
     <ClInclude Include="roguezombie\game\GameplayServer.hpp" />
     <ClInclude Include="roguezombie\game\Tile.hpp" />
-    <ClInclude Include="roguezombie\game\StartMenuState.hpp" />
+    <ClInclude Include="roguezombie\game\StateGameStart.hpp" />
     <ClInclude Include="roguezombie\game\Level.hpp" />
     <ClInclude Include="roguezombie\game\characters\Zombie.hpp" />
   </ItemGroup>
