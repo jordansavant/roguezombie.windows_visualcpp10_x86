@@ -168,9 +168,6 @@
     <ClCompile Include="roguezombie\game\characters\Zombie.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="roguezombie\game\characters\ZombieClient.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="roguezombie\game\TileClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -187,9 +184,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="roguezombie\game\characters\Ogre.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="roguezombie\game\characters\OgreClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="roguezombie\bitengine\Intelligence\Shadowcaster.cpp">
@@ -321,9 +315,71 @@
     <ClCompile Include="roguezombie\game\CharacterSprite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="roguezombie\game\hud\Frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\characters\Hunter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\dialog\DialogEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\dialog\Dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\dialog\DialogNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\dialog\DialogResponse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\hud\DialogMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\AiRoutines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\bitengine\Math\RectangleMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\hud\TurnQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\bitengine\Intelligence\FloodFill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\MoveMarker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\hud\ActionBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\hud\StatBubble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="roguezombie\content\Agency.ttf" />
+    <None Include="roguezombie\content\homespun.ttf" />
+    <None Include="roguezombie\content\title.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="roguezombie\content\interface_01.csv" />
+    <None Include="roguezombie\content\interface_01.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="roguezombie\content\minititle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="roguezombie\content\mouse.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="roguezombie\content\spritesheet_01.csv" />
+    <None Include="roguezombie\content\spritesheet_01.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="roguezombie\content\RockmenCombat.ogg" />
+    <None Include="roguezombie\content\RockmenExplore.ogg" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="roguezombie\cpd.h">
@@ -527,9 +583,6 @@
     <ClInclude Include="roguezombie\game\characters\Zombie.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="roguezombie\game\characters\ZombieClient.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="roguezombie\game\TileClient.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -546,9 +599,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="roguezombie\game\characters\Ogre.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="roguezombie\game\characters\OgreClient.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="roguezombie\bitengine\Intelligence\Shadowcaster.hpp">
@@ -703,6 +753,48 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="roguezombie\game\CharacterSprite.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\hud\Frame.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\characters\Hunter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\dialog\DialogEntry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\dialog\Dialog.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\dialog\DialogNode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\dialog\DialogResponse.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\hud\DialogMenu.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\AiRoutines.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Math\RectangleMath.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\hud\TurnQueue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Intelligence\FloodFill.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\MoveMarker.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\hud\ActionBar.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\hud\StatBubble.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
