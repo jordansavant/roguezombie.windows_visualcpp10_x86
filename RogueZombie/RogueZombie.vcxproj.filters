@@ -357,6 +357,15 @@
     <ClCompile Include="roguezombie\game\hud\StatBubble.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="roguezombie\bitengine\Gui\Hoverable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\game\hud\Tooltip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\bitengine\System\String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="roguezombie\content\Agency.ttf" />
@@ -795,6 +804,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="roguezombie\game\hud\StatBubble.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\Gui\Hoverable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\game\hud\Tooltip.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\bitengine\System\String.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

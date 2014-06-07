@@ -94,6 +94,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\bitengine\Game\VideoGame.cpp" />
     <ClCompile Include="roguezombie\bitengine\Gui\Draggable.cpp" />
     <ClCompile Include="roguezombie\bitengine\Gui\FadeEffect.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Gui\Hoverable.cpp" />
     <ClCompile Include="roguezombie\bitengine\Intelligence\FloodFill.cpp" />
     <ClCompile Include="roguezombie\bitengine\Intelligence\Shadowcaster.cpp" />
     <ClCompile Include="roguezombie\bitengine\Math\RectangleMath.cpp" />
@@ -137,6 +138,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\bitengine\Math\VectorMath.cpp" />
     <ClCompile Include="roguezombie\bitengine\System\FileSystem.cpp" />
     <ClCompile Include="roguezombie\bitengine\System\Output.cpp" />
+    <ClCompile Include="roguezombie\bitengine\System\String.cpp" />
     <ClCompile Include="roguezombie\game\AiRoutines.cpp" />
     <ClCompile Include="roguezombie\game\Body.cpp" />
     <ClCompile Include="roguezombie\game\BodyClient.cpp" />
@@ -164,6 +166,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\game\hud\LootMenu.cpp" />
     <ClCompile Include="roguezombie\game\hud\OptionsBar.cpp" />
     <ClCompile Include="roguezombie\game\hud\StatBubble.cpp" />
+    <ClCompile Include="roguezombie\game\hud\Tooltip.cpp" />
     <ClCompile Include="roguezombie\game\hud\TurnQueue.cpp" />
     <ClCompile Include="roguezombie\game\Interaction.cpp" />
     <ClCompile Include="roguezombie\game\items\Item.cpp" />
@@ -208,15 +211,18 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
   <ItemGroup>
     <None Include="roguezombie\content\Agency.ttf" />
     <ClInclude Include="roguezombie\bitengine\Gui\Draggable.hpp" />
+    <ClInclude Include="roguezombie\bitengine\Gui\Hoverable.hpp" />
     <ClInclude Include="roguezombie\bitengine\Intelligence\FloodFill.hpp" />
     <ClInclude Include="roguezombie\bitengine\Math\RectangleMath.hpp" />
     <ClInclude Include="roguezombie\bitengine\Network\NetworkHelper.hpp" />
+    <ClInclude Include="roguezombie\bitengine\System\String.hpp" />
     <ClInclude Include="roguezombie\game\AiRoutines.hpp" />
     <ClInclude Include="roguezombie\game\BodyClient.hpp" />
     <ClInclude Include="roguezombie\game\CharacterClient.hpp" />
     <ClInclude Include="roguezombie\game\CharacterSprite.hpp" />
     <ClInclude Include="roguezombie\game\hud\ActionBar.hpp" />
     <ClInclude Include="roguezombie\game\hud\StatBubble.hpp" />
+    <ClInclude Include="roguezombie\game\hud\Tooltip.hpp" />
     <ClInclude Include="roguezombie\game\hud\TurnQueue.hpp" />
     <ClInclude Include="roguezombie\game\characters\Hunter.hpp" />
     <ClInclude Include="roguezombie\game\ClientRequest.hpp" />
