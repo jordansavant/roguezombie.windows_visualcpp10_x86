@@ -375,6 +375,18 @@
     <ClCompile Include="roguezombie\server\LevelLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="roguezombie\client\hud\InventoryPositionSlot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\client\hud\InventoryLootSlot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\client\hud\InventoryIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="roguezombie\client\RZConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="roguezombie\content\Agency.ttf" />
@@ -398,8 +410,9 @@
     </None>
     <None Include="roguezombie\content\RockmenCombat.ogg" />
     <None Include="roguezombie\content\RockmenExplore.ogg" />
-    <None Include="roguezombie\content\ShaderOutline.frag" />
     <None Include="roguezombie\content\Test.xml" />
+    <None Include="roguezombie\content\Illuminate.frag" />
+    <None Include="roguezombie\content\Outline.frag" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="roguezombie\cpd.h">
@@ -836,6 +849,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="roguezombie\bitengine\Structures\NonCopyable.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\client\hud\InventoryPositionSlot.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\client\hud\InventoryLootSlot.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\client\hud\InventoryIcon.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\client\RZConfig.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
