@@ -140,6 +140,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\bitengine\System\Output.cpp" />
     <ClCompile Include="roguezombie\bitengine\System\String.cpp" />
     <ClCompile Include="roguezombie\bitengine\System\tinyxml2.cpp" />
+    <ClCompile Include="roguezombie\client\hud\ActionBarSlot.cpp" />
     <ClCompile Include="roguezombie\client\hud\InventoryIcon.cpp" />
     <ClCompile Include="roguezombie\client\hud\InventoryLootSlot.cpp" />
     <ClCompile Include="roguezombie\client\hud\InventoryPositionSlot.cpp" />
@@ -226,6 +227,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClInclude Include="roguezombie\bitengine\Structures\NonCopyable.hpp" />
     <ClInclude Include="roguezombie\bitengine\System\String.hpp" />
     <ClInclude Include="roguezombie\bitengine\System\tinyxml2.h" />
+    <ClInclude Include="roguezombie\client\hud\ActionBarSlot.hpp" />
     <ClInclude Include="roguezombie\client\hud\InventoryIcon.hpp" />
     <ClInclude Include="roguezombie\client\hud\InventoryLootSlot.hpp" />
     <ClInclude Include="roguezombie\client\hud\InventoryPositionSlot.hpp" />

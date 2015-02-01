@@ -387,6 +387,9 @@
     <ClCompile Include="roguezombie\client\RZConfig.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="roguezombie\client\hud\ActionBarSlot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="roguezombie\content\Agency.ttf" />
@@ -861,6 +864,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="roguezombie\client\RZConfig.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roguezombie\client\hud\ActionBarSlot.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
