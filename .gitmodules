@@ -1,3 +1,3 @@
 [submodule "RogueZombie/roguezombie"]
 	path = RogueZombie/roguezombie
-	url = skeleton@jordansavant.dyndns-home.com:~/repos/roguezombie.git
+	url = git@bitbucket.org:md5madman/roguezombie.git
