@@ -92,6 +92,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\bitengine\Audio\SoundManager.cpp" />
     <ClCompile Include="roguezombie\bitengine\Game\FrameTimer.cpp" />
     <ClCompile Include="roguezombie\bitengine\Game\VideoGame.cpp" />
+    <ClCompile Include="roguezombie\bitengine\Graphics\ColorMixer.cpp" />
     <ClCompile Include="roguezombie\bitengine\Gui\Draggable.cpp" />
     <ClCompile Include="roguezombie\bitengine\Gui\FadeEffect.cpp" />
     <ClCompile Include="roguezombie\bitengine\Gui\Hoverable.cpp" />
@@ -178,12 +179,14 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClCompile Include="roguezombie\server\items\Item.cpp" />
     <ClCompile Include="roguezombie\client\items\ItemClient.cpp" />
     <ClCompile Include="roguezombie\server\LevelLoader.cpp" />
+    <ClCompile Include="roguezombie\server\LevelRunnable.cpp" />
     <ClCompile Include="roguezombie\server\levels\Interior.cpp" />
     <ClCompile Include="roguezombie\server\Light.cpp" />
     <ClCompile Include="roguezombie\client\menus\ErrorMenu.cpp" />
     <ClCompile Include="roguezombie\client\menus\StartMainMenu.cpp" />
     <ClCompile Include="roguezombie\client\menus\StateMenu.cpp" />
     <ClCompile Include="roguezombie\client\hud\Minimap.cpp" />
+    <ClCompile Include="roguezombie\server\lights\Flare.cpp" />
     <ClCompile Include="roguezombie\server\mission\JournalEntry.cpp" />
     <ClCompile Include="roguezombie\server\mission\Mission.cpp" />
     <ClCompile Include="roguezombie\client\mission\MissionClient.cpp" />
@@ -218,6 +221,7 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
   </ItemGroup>
   <ItemGroup>
     <None Include="roguezombie\content\Agency.ttf" />
+    <ClInclude Include="roguezombie\bitengine\Graphics\ColorMixer.hpp" />
     <ClInclude Include="roguezombie\bitengine\Gui\Draggable.hpp" />
     <ClInclude Include="roguezombie\bitengine\Gui\Hoverable.hpp" />
     <ClInclude Include="roguezombie\bitengine\Intelligence\FloodFill.hpp" />
@@ -344,6 +348,8 @@ xcopy /E /Y "$(SolutionDir)\DLL" "$(OutDir)"</Command>
     <ClInclude Include="roguezombie\server\characters\Ogre.hpp" />
     <ClInclude Include="roguezombie\client\MoveMarker.hpp" />
     <ClInclude Include="roguezombie\server\LevelLoader.hpp" />
+    <ClInclude Include="roguezombie\server\LevelRunnable.hpp" />
+    <ClInclude Include="roguezombie\server\lights\Flare.hpp" />
     <ClInclude Include="roguezombie\server\RpgSystem.hpp" />
     <ClInclude Include="roguezombie\server\ServerEvent.hpp" />
     <ClInclude Include="roguezombie\client\hud\Hud.hpp" />
